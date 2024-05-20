@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+</head>
+<body>
+
+<h2>HTML Forms</h2>
+
+<form action="http://127.0.0.1:8082/login" method="post">
+  <label for="username">User name:</label><br>
+  <input type="text" id="username" name="username"><br>
+  <label for="password">Password:</label><br>
+  <input type="password" id="password" name="password"><br>
+  <label for="dob">DoB:</label><br>
+  <input type="date" id="dob" name="dob"><br><br>   
+  <input type="submit" value="Login">
+</form> 
+
+<div id="error-message" style="color:red;"></div> <!-- Added error message div -->
+
+<p>If you click the "Login" button, the form-data will be sent to login-servlet.</p>
+
+</body>
+</html>
